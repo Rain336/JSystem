@@ -1,0 +1,11 @@
+[package]
+name = "rarc"
+version = "0.1.0"
+authors = ["Rain336 <rain336@live.de>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33"
+globset = "0.4"
+humansize = "1.1"
+jsystem = { path = "../jsystem", features = ["rarc"] }

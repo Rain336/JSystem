@@ -1,0 +1,3 @@
+# Exclude example files since they are copyrighted.
+*.u8
+meta/

@@ -1,0 +1,16 @@
+[package]
+name = "wii"
+version = "0.1.0"
+edition = "2018"
+
+[features]
+disc = ["aes"]
+u8 = ["radix_trie"]
+imet = ["md-5"]
+imd5 = ["md-5"]
+
+[dependencies]
+byteorder = "1.4"
+aes = { version = "0.7", optional = true }
+md-5 = { version = "0.9", optional = true }
+radix_trie = { version = "0.2", optional = true }

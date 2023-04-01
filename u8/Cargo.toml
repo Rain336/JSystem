@@ -1,0 +1,10 @@
+[package]
+name = "u8"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+clap = "2.33"
+globset = "0.4"
+humansize = "1.1"
+wii = { path = "../wii", features = ["u8"] }

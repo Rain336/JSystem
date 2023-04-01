@@ -1,0 +1,10 @@
+[package]
+name = "rarc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = { version = "1.13", features = ["extern_crate_std", "derive"] }
+byteorder = "1.4"
+thiserror = "1.0"
+bitflags = "1.3"

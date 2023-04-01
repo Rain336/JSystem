@@ -1,0 +1,9 @@
+[package]
+name = "bcsv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.4"
+thiserror = "1.0"
+encoding_rs = "0.8"

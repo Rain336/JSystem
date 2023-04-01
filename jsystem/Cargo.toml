@@ -1,0 +1,19 @@
+[package]
+name = "jsystem"
+version = "0.1.0"
+authors = ["Rain336 <rain336@live.de>"]
+edition = "2018"
+
+[features]
+rarc = ["bytes", "radix_trie", "yaz0", "encoding_rs"]
+bcsv = ["bytes", "encoding_rs"]
+default = ["bcsv"]
+
+[dependencies]
+bytes = { version = "1.0", optional = true }
+radix_trie = { version = "0.2", optional = true }
+yaz0 = { version = "0.3", optional = true }
+encoding_rs = { version = "0.8", optional = true }
+
+[dev-dependencies]
+humansize = "1.1"
