@@ -25,6 +25,7 @@ A crate for reading a lot of different wii formats:
 - IMET
 - Disc Header, Partition Table & Ticket
 - Binary Revolution Layout Files (BRLYT)
+
 In the future I'll most likely split them all into their own crates under `lib/`
 
 ## Tools
